@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i');
+
+    h1 {
+      font-size: 24px;
+
+
+    }
+    h2{
+      font-size: 18px;
+    }
+
+
+
+    .suggestion-details .suggestion-info{
+        margin-top: 5px;
+        text-align: left;
+    }
+
+    .suggestion-info{
+      color: purple;
+      font-size: 16px;
+    }
+
+    input{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+
+    }
+
+    button {
+      background-color: purple;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      float:left;
+    }
+
+    #destination{
+      font-size:20px;
+    }
+
+    .dialogue{
+        height: 100%;
+        width: 100%;
+        min-height: 100%;
+    }
+
+    .dialogue .top {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 22px;
+        line-height: 90px;
+        width: 100%;
+        height: 10%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+
+        color: rgba(255,255,255,1);
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        -webkit-box-shadow: 1px 1px 23px 0px 0px rgba(0,0,0,0.15) ;
+        box-shadow: 1px 1px 23px 0 rgba(0,0,0,0.15) ;
+        background: #E35C5C;
+        z-index: 2;
+    }
+
+    .dialogue .middle {
+        display:block;
+
+        width: 100%;
+        height: 70%;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+
+        text-align: center;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
+
+    .dialogue .middle .inputs{
+        float: right;
+
+        width: 24%;
+        margin-top: 8px;
+    }
+
+    .dialogue .middle .suggestions{
+        float: left;
+        height: 100%;
+        width: 50%;
+        margin:1%;
+    }
+
+    .dialogue .middle .responses{
+        float: left;
+
+        width: 24%;
+        margin-top: 8px;
+    }
+
+    .dialogue .middle .inputs #input-text{
+        display:block;
+
+        min-width: 10%;
+        max-width: 100%;
+        min-height: 10px;
+
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+
+        padding: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        background-color: rgb(114, 177, 248);
+        border-radius: 5px;
+        font-size:20px;
+
+        -webkit-box-shadow: 1px 1px 23px 0px 0px rgba(0,0,0,0.1) ;
+        box-shadow: 1px 1px 23px 0 rgba(0,0,0,0.1) ;
+    }
+
+    .dialogue .middle .suggestions .cards .card-item{
+        width:100%;
+        height:100%;
+        margin-top:20px;
+
+    }
+
+    .dialogue .middle .suggestions .cards .card-item{
+        -webkit-box-shadow: 1px 1px 23px 0px 0px rgba(0,0,0,0.1) ;
+        box-shadow: 1px 1px 23px 0 rgba(0,0,0,0.1) ;
+
+        height: 200px;
+
+
+        width: 100%;
+    }
+
+    .dialogue .middle .suggestions .cards .card-item .name{
+        width: 100%;
+        height: 20%;
+
+        padding-top: 10px;
+    }
+
+    .dialogue .middle .suggestions .cards .card-item .images{
+        width: 100%;
+        height: 60%;
+    }
+
+    .dialogue .middle .suggestions .cards .card-item .images .image{
+        float:left;
+        height: 80%;
+        width: 31%;
+
+        margin-left: 10px;
+    }
+
+    .dialogue .middle .suggestions .cards .card-item .images .image img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .dialogue .middle .suggestions .cards .card-item .activities{
+        width: 100%;
+        height: 12%;
+    }
+
+    .dialogue .middle .suggestions .cards .card-item .click-me{
+        width: 100%;
+        height: auto;
+        font-size: 8px;
+    }
+
+    .dialogue .middle .responses #response-text{
+        display:block;
+
+        min-width: 10%;
+        max-width: 100%;
+        min-height: 10px;
+
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+
+        padding: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        background-color: rgb(248, 186, 114);
+        border-radius: 5px;
+        font-size:20px;
+
+        -webkit-box-shadow: 1px 1px 23px 0px 0px rgba(0,0,0,0.1) ;
+        box-shadow: 1px 1px 23px 0 rgba(0,0,0,0.1) ;
+    }
+
+    .dialogue .text-input{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        clear: left;
+        float:left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+
+    .dialogue .bottom {
+      position: fixed;
+      bottom: 0;
+
+      text-align: center;
+      vertical-align: middle;
+      font-size: 22px;
+      line-height: 90px;
+      width: 100%;
+      height: 10%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+
+      color: black;
+      text-align: center;
+      -o-text-overflow: clip;
+      text-overflow: clip;
+      -webkit-box-shadow: 1px 1px 23px 0px 0px rgba(0,0,0,0.15) ;
+      box-shadow: 1px 1px 23px 0 rgba(0,0,0,0.15) ;
+      background: white;
+      z-index: 2;
+    }
+
+    .dialogue .bottom #start-speech{
+      text-align: center;
+      vertical-align: middle;
+      font-size: 22px;
+      height: 100%;
+      width: 80%;
+
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+
+      color: black;
+
+      text-align: center;
+      -o-text-overflow: clip;
+      text-overflow: clip;
+      background: white;
+      z-index: 2;
+    }
+
+      .dot {
+      height: 25px;
+      width: 25px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      }
+
+      .dot2 {
+      height: 25px;
+      width: 25px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      }
+
+    * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+
+      -webkit-text-stroke: 0.45px;
+      -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+      text-shadow: #fff 0px 1px 1px;
+      font-variant-ligatures: none;
+      -webkit-font-variant-ligatures: none;
+      text-rendering: optimizeLegibility;
+      -moz-osx-font-smoothing: grayscale;
+      font-smoothing: antialiased;
+      -webkit-font-smoothing: antialiased;
+      text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+
+      font-family: 'Open Sans', sans-serif;
+
+      text-align: center;
+      vertical-align: middle;
+
+    }
+    html {
+      height: 100vh;
+    }
+
+    .suggestion-details{
+      float: left;
+      height: auto;
+      width: 100%;
+
+      padding: 20px;
+      text-align: left;
+        -webkit-box-shadow: 1px 1px 23px 0px 0px rgba(0,0,0,0.15) ;
+        box-shadow: 1px 1px 23px 0 rgba(0,0,0,0.15) ;
+    }

@@ -1,0 +1,45 @@
+{
+  "name": "@kamiazya/ngx-speech-recognition",
+  "version": "0.1.1",
+  "license": "MIT",
+  "author": "kamiazya",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamiazya/ngx-speech-recognition.git"
+  },
+  "private": false,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng-packagr -p ng-package.json",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+
+  },
+  "dependencies": {
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "angular-route": "^1.7.0",
+    "angular-router": "0.0.2",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.6.2",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/language-service": "^5.0.0",
+    "@types/webspeechapi": "0.0.29",
+    "codelyzer": "^4.0.1",
+    "electron": "^2.0.1",
+    "ng-packagr": "^1.6.0",
+    "protractor": "~5.1.2",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.7.0",
+    "typescript": "~2.4.2"
+  }
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "name":"Reykjavík, Iceland - Hlemmur Square",
+    "images":[
+      "https://imgio.trivago.com/partnerimages/13/42/134226014_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/10/88/108802980_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/13/42/134225962_x.jpeg"
+    ],
+    "activities":"Free Wifi - All-Inclusive - Pool - Fitness - Restaurant",
+    "weather":"cold",
+    "price":50
+  },
+  {
+    "name":"Rome, Italy - Grand Hotel Tiberio",
+    "images":[
+      "https://imgio.trivago.com/uploadimages/18/49/18490002_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/19/14/191480664_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/20/42/204206694_x.jpeg"
+    ],
+    "activities":"Free Wifi - Fitness - Wellness - Hotel Bar - City center",
+    "weather":"warm",
+    "price":60
+  },
+  {
+    "name":"Sidney, Australia - Vibe Hotel Sidney",
+    "images":[
+      "https://imgio.trivago.com/partnerimages/13/52/135238326_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/11/14/111451324_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/11/14/111451328_x.jpeg"
+    ],
+    "activities":"Free Wifi - Pool - Fitness - Parking spots - City center",
+    "weather":"warm",
+    "price":100
+  },
+  {
+    "name":"Garda, Italy - Poiano Garda Resort Hotel",
+    "images":[
+      "https://imgio.trivago.com/gtximages/uploadimages/17/07/17079168_y@2x.jpeg",
+      "https://imgio.trivago.com/gtximages/uploadimages/17/07/17078234_y@2x.jpeg",
+      "https://imgio.trivago.com/gtximages/partnerimages/13/65/136556586_y@2x.jpeg"
+    ],
+    "activities":"Pool -  Breakfast - Free Wifi - Fitness - Airco",
+    "weather":"warm",
+    "price":40
+  },
+  {
+    "name":"Krakow, Poland - Europejski",
+    "images":[
+      "https://imgio.trivago.com/gtximages/partnerimages/10/97/109780496_y@2x.jpeg",
+      "https://imgio.trivago.com/gtximages/partnerimages/12/16/121656782_y@2x.jpeg",
+      "https://imgio.trivago.com/gtximages/partnerimages/12/16/121656780_y@2x.jpeg"
+    ],
+    "activities":"Restaurant - Bar - Wellness - Free Wifi - pets allowed",
+    "weather":"cold",
+    "price":220
+  },
+  {
+    "name":"Las Vegas, America(USA) - New York New York",
+    "images":[
+      "https://imgio.trivago.com/partnerimages/23/21/232128570_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/22/10/221009098_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/22/10/221009114_x.jpeg"
+    ],
+    "activities":"Pool - Restaurant - Bar - Wellness - Fitness - Pets allowed",
+    "weather":"warm",
+    "price":175
+  },
+  {
+    "name":"Beijing, China - Four Seasons Beijing",
+    "images":[
+      "https://imgio.trivago.com/gtximages/uploadimages/11/81/11816976_y@2x.jpeg",
+      "https://imgio.trivago.com/gtximages/partnerimages/21/15/211568846_y@2x.jpeg",
+      "https://imgio.trivago.com/gtximages/partnerimages/85/69/85692058_y@2x.jpeg"
+    ],
+    "activities":"Pool - Wifi - Airco - Bar - Fitness",
+    "weather":"cold",
+    "price":95
+  },
+  {
+    "name":"Rio de Janeiro, Brazil - Promenade Visconti",
+    "images":[
+      "https://imgio.trivago.com/uploadimages/19/21/19213874_x.jpeg",
+      "https://imgio.trivago.com/uploadimages/19/21/19213848_x.jpeg",
+      "https://imgio.trivago.com/uploadimages/19/21/19213834_x.jpeg"
+    ],
+    "activities":"Pool - Restaurant - Wifi - Airco - Fitness",
+    "weather":"warm",
+    "price":50
+  },
+  {
+    "name":"Oslo, Norway - Frogner House Bygdøy allé 53",
+    "images":[
+      "https://imgio.trivago.com/partnerimages/13/47/134772184_x.jpeg",
+      "https://imgio.trivago.com/uploadimages/16/62/16627006_x.jpeg",
+      "https://imgio.trivago.com/uploadimages/27/98/27988260_x.jpeg"
+    ],
+    "activities":"Breakfast - Wifi - Pets allowed",
+    "weather":"warm",
+    "price":110
+  },
+  {
+    "name":"Moscow, Russia - Sheraton Palace",
+    "images":[
+      "https://imgio.trivago.com/partnerimages/28/54/285424520_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/67/03/67032840_x.jpeg",
+      "https://imgio.trivago.com/partnerimages/28/54/285424488_x.jpeg"
+    ],
+    "activities":"Wifi - Restaurant - Bar - Wellness - Fitness - Airco - Pets allowed",
+    "weather":"cold",
+    "price":90
+  },
+  {
+    "name":"Rotterdam, The Netherlands - Hilton Rotterdam",
+    "images":[
+      "https://imgio.trivago.com/gtximages/uploadimages/24/22/24223320_y@2x.jpeg",
+      "https://imgio.trivago.com/gtximages/uploadimages/20/58/20582518_y@2x.jpeg",
+      "https://imgio.trivago.com/gtximages/partnerimages/20/15/201526354_y@2x.jpeg"
+    ],
+    "activities":"Restaurant - Wifi - Bar - Fitness - Airco - Pets allowed",
+    "weather":"cold",
+    "price":140
+  }
+]
